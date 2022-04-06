@@ -1,0 +1,86 @@
+h1{
+    color: rgb(114, 163, 42);
+    font-size: 40px;
+    top: 1px;
+}
+i{
+    color:rgb(114, 163, 42) ;
+}
+p{
+    color: rgb(114, 163, 42);
+}
+img{
+   left: 10px; 
+   top:10px; 
+    max-width:200px;
+    max-height:150px;
+    border-radius: 80%;
+}
+.tudo{
+    width: 60%;
+    height: 850px;
+    background-color:azure;
+    border: outset 10px rgb(216, 232, 232);
+}
+.image{
+    width: 30%;
+	height: 150px; 
+    float: left;
+}
+.titulo{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: aqua;
+}
+.linha{
+    clear: none;
+}
+#info{
+    width: 50%;
+    float: left ;
+    line-height: 15px;
+    font-size: 13px;
+}
+.obj{
+    width: 100%;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+.form{
+    width: 100%;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+.hab{
+    width: 50%;
+    height: 90px;
+    float: left;
+    text-align: center;
+}
+.per{
+    width: 50%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    list-style-position: inside;
+}
+.exp{
+    width: 49%;
+    height: 200px;
+    float: right;
+    text-align: center;
+}
+.itens{
+    float: left;
+
+}
+.circle{
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    float: right;
+}
