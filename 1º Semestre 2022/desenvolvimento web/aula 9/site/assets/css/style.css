@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+}
+
+header {
+    background-color: rgb(57, 56, 97);
+    text-align: center;
+    padding: 50px;
+    color: rgb(227, 156, 56);
+    font-size: 30px;
+    background-image: url(https://pt.romemap360.com/website/var/tmp/image-thumbnails/0/286/thumb__banner-1216/rome.pjpeg);
+}
+header h1{
+    font-style:italic;
+    text-shadow: -3px -3px 2px rgb(34, 33, 33);
+}
+
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    background-image: url(https://i0.wp.com/turismo.eurodicas.com.br/wp-content/uploads/2019/10/roma.jpg?fit=1360%2C907&ssl=1);
+}
+
+nav {
+    padding: 30px;
+    width: 20%;
+    background-color: rgba(157, 152, 152, 0.457);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+article {
+    background-color: rgba(127, 124, 124, 0.831);
+    padding: 30px;
+    width: 80%;
+}
+
+
+footer {
+    background-color: darkgrey;
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+@media (max-width:600px) {
+    section {
+        flex-wrap: wrap;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+    }
+}

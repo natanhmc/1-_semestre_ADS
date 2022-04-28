@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+}
+
+header {
+    background-color: rgb(57, 56, 97);
+    text-align: center;
+    padding: 60px;
+    color: #fff;
+    font-size: 20px;
+    background-image: url(https://pt.romemap360.com/website/var/tmp/image-thumbnails/0/286/thumb__banner-1216/rome.pjpeg);
+}
+
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav {
+    padding: 30px;
+    width: 20%;
+    background-color: rgba(157, 152, 152, 0.457);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+article {
+    background-color: lightgray;
+    padding: 30px;
+    width: 80%;
+}
+
+footer {
+    background-color: darkgrey;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+
+
+}
+
+@media (max-width:600px) {
+    section {
+        flex-wrap: wrap;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+    }
+}
