@@ -7,15 +7,21 @@ header {
     background-color: rgb(57, 56, 97);
     text-align: center;
     padding: 60px;
-    color: #fff;
-    font-size: 20px;
-    background-image: url(https://pt.romemap360.com/website/var/tmp/image-thumbnails/0/286/thumb__banner-1216/rome.pjpeg);
+    color: rgb(90, 85, 85);
+    font-size: 30px;
+    background-image: url(https://cloudflare1.360gigapixels.com/pano/ytpano/00533217_P_TokyoSkytree120704.tif/equirect_crop_3_1/6.jpg);
+}
+header h1{
+    font-style:italic;
+    text-shadow: -3px -3px 2px rgb(34, 33, 33);
 }
 
 
 section {
     display: flex;
     flex-wrap: nowrap;
+    background-image: url(https://media.gettyimages.com/photos/mt-fuji-and-tokyo-skyline-picture-id912274822?s=612x612);
+    background-size: cover;
 }
 
 nav {
@@ -33,7 +39,7 @@ nav li {
 }
 
 article {
-    background-color: lightgray;
+    background-color: rgba(127, 124, 124, 0.831);
     padding: 30px;
     width: 80%;
 }

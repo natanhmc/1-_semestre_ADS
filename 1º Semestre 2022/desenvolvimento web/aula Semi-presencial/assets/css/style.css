@@ -1,0 +1,56 @@
+header{
+    background-color: aliceblue;
+    padding: 1px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+.li{
+    float: right;
+    padding-right: 50px;
+}
+
+
+article {
+    text-align: center;
+    background-color: rgba(25, 171, 120, 0.363);
+    padding: 1px;
+}
+#img-ar {
+    border-radius: 100%;
+    max-height: 300px;
+}
+#article{
+    background-color: rgba(97, 100, 132, 0.587);
+}
+.colunas{
+    float: left;
+    max-width: 33%;
+    background-color: rgba(151, 252, 218, 0.221);
+}
+
+#sec-colunas{
+    text-align: center;
+    background-color: rgba(151, 252, 218, 0.221);
+    padding: 1px;
+}
+.img-coluna{
+    max-width: 80%;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+input{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+

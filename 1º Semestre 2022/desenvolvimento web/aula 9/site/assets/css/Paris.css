@@ -7,20 +7,26 @@ header {
     text-align: center;
     padding: 60px;
     color: rgb(86, 155, 79);
-    font-size: 20px;
+    font-size: 30px;
     background-image: url(https://thumbs.dreamstime.com/b/paris-aerial-panoramic-cityscape-view-france-paris-aerial-panoramic-cityscape-view-france-beautiful-city-skyline-famous-135422457.jpg);
+}
+header h1{
+    font-style:italic;
+    text-shadow: -3px -3px 2px rgb(34, 33, 33);
 }
 
 
 section {
     display: flex;
     flex-wrap: nowrap;
+    background-image: url(https://www.egali.com.br/wp-content/uploads/2019/10/egali-intercambio-curiosidades-sobre-paris-grande-metropole.png);
+    background-size: cover;    
 }
 
 nav {
     padding: 30px;
     width: 20%;
-    background-color: rgba(139, 181, 66, 0.457);
+    background-color: rgba(157, 152, 152, 0.457);
 }
 
 nav ul {
@@ -32,7 +38,7 @@ nav li {
 }
 
 article {
-    background-color: lightgray;
+    background-color: rgba(127, 124, 124, 0.831);
     padding: 30px;
     width: 80%;
     

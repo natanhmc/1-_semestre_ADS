@@ -2,20 +2,30 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px auto;
 }
+img{
+    max-width: 350px;
+}
 
 header {
     background-color: rgb(57, 56, 97);
     text-align: center;
     padding: 60px;
-    color: #fff;
-    font-size: 20px;
-    background-image: url(https://pt.romemap360.com/website/var/tmp/image-thumbnails/0/286/thumb__banner-1216/rome.pjpeg);
+    color: rgb(77, 92, 148);
+    font-size: 30px;
+    background-image: url(https://pt.londonmap360.com/website/var/tmp/image-thumbnails/0/288/thumb__banner/london.pjpeg);
+    background-size: cover;
+}
+header h1{
+    font-style:italic;
+    text-shadow: -3px -3px 2px rgb(34, 33, 33);
 }
 
 
 section {
     display: flex;
     flex-wrap: nowrap;
+    background-image: url(https://www.eurodicas.com.br/wp-content/uploads/2021/03/morar-em-londres-1-1200x675.jpg);
+    background-size: cover;
 }
 
 nav {
@@ -33,7 +43,7 @@ nav li {
 }
 
 article {
-    background-color: lightgray;
+    background-color: rgba(127, 124, 124, 0.831);
     padding: 30px;
     width: 80%;
 }
