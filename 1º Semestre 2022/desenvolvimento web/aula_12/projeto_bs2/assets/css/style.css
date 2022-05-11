@@ -1,0 +1,14 @@
+body{
+    font-size: 10px;
+    background-image: linear-gradient(rgb(255, 230, 0),rgb(9, 141, 235));
+}
+nav{
+    background-color: aliceblue;
+}
+h5{
+    font-size: 15px;
+}
+#img_artic{
+    max-width: 400px;
+}
+
